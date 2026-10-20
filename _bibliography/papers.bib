@@ -2,51 +2,137 @@
 ---
 
 @comment{==============================================================
-  CARA ISI PUBLIKASI
+  Publikasi Yusuf Taqy Mubarak
   ---------------------------------------------------------------
-  - Tiap publikasi = satu blok yang diawali @<tipe>{<id-unik>, ... }
-  - <id-unik>: bebas, tanpa spasi. Contoh: mubarak2025minerals
-  - Urutan di halaman: otomatis dari tahun (terbaru di atas)
-  - Field yang sering dipakai:
-      title     = judul
-      author    = penulis. Pisahkan banyak penulis dengan " and "
-                  Format: {Nama Belakang, Nama Depan}
-      journal   = nama jurnal (untuk @article)
-      year      = tahun
-      html      = link ke publikasi (URL penuh, misal https://...)
-      pdf       = nama file PDF di assets/pdf/ ATAU URL penuh
-      abbr      = label kecil di kiri (opsional, misal nama lembaga/jurnal)
-      selected  = {true} kalau mau tampil di "selected publications"
-  - Hapus field yang tidak dipakai. Hapus blok contoh ini kalau sudah paham.
+  Menambah publikasi baru: salin satu blok, ganti isinya, pakai
+  id unik (tanpa spasi). Halaman mengurutkan otomatis dari `year`
+  (dan `month` kalau ada). Field `abbr` = label kecil di kiri.
+  Hapus field yang tidak dipakai.
 ===============================================================}
 
-@comment{--- CONTOH 1: artikel jurnal ---}
-@article{contoh-jurnal-2025,
-  title   = {Judul Artikel Jurnal Anda di Sini},
-  author  = {Mubarak, Yusuf Taqy and Penulis, Kedua},
-  journal = {Nama Jurnal},
-  year    = {2025},
-  abbr    = {Jurnal},
-  html    = {https://link-ke-artikel-anda.com},
-  pdf     = {}
-}
+@comment{================= Working Paper =================}
 
-@comment{--- CONTOH 2: working paper / laporan ---}
-@techreport{contoh-working-paper-2024,
-  title       = {Judul Working Paper atau Laporan},
+@techreport{mubarak2026palmoil,
+  abbr        = {WEF},
+  title       = {Institutional Lessons from the Malaysian Palm Oil Board for Strengthening Indonesia's Palm Oil Governance},
   author      = {Mubarak, Yusuf Taqy},
-  institution = {INDEF},
-  year        = {2024},
-  abbr        = {INDEF},
-  html        = {https://link-working-paper.com}
+  institution = {World Economic Forum},
+  year        = {2026},
+  html        = {https://reports.weforum.org/docs/WEF_Institutional_Lessons_from_the_Malaysian_Palm_Oil_Board_for_Strengthening_Indonesias_Palm_Oil_Governance_2026.pdf}
 }
 
-@comment{--- CONTOH 3: artikel media / opini ---}
-@misc{contoh-artikel-media-2024,
-  title        = {Judul Artikel Media atau Opini},
+@comment{================= Artikel Berita / Opini =================}
+
+@misc{mubarak2026desentralisasi,
+  abbr         = {CNBC},
+  title        = {Ada dan Tiada Desentralisasi},
   author       = {Mubarak, Yusuf Taqy},
-  howpublished = {Nama Media (misal: Kompas, Bisnis Indonesia)},
-  year         = {2024},
-  abbr         = {Media},
-  html         = {https://link-artikel-media.com}
+  howpublished = {CNBC Indonesia},
+  year         = {2026},
+  month        = {aug},
+  html         = {https://www.cnbcindonesia.com/opini/20260831160716-14-763722/ada-dan-tiada-desentralisasi}
+}
+
+@comment{================= Monthly Brief: Food, Energy & Sustainable Development (INDEF) =================}
+
+@techreport{fesd2026jul,
+  abbr        = {INDEF},
+  title       = {Krisis Pasokan Energi dan Tekanan Harga Pangan},
+  author      = {Mubarak, Yusuf Taqy},
+  institution = {INDEF — Monitoring Issue of Food, Energy and Sustainable Development},
+  year        = {2026},
+  month        = {jul},
+  html        = {https://indef.or.id/publikasi/monitoring-issue-of-fesd-juli-2026/}
+}
+
+@techreport{fesd2026may,
+  abbr        = {INDEF},
+  title       = {Menguji Retorika Swasembada Pangan di Tengah Tekanan Harga Energi Global},
+  author      = {Mubarak, Yusuf Taqy},
+  institution = {INDEF — Monitoring Issue of Food, Energy and Sustainable Development},
+  year        = {2026},
+  month        = {may},
+  html        = {https://indef.or.id/publikasi/monitoring-issue-fesd-mei-2026/}
+}
+
+@techreport{fesd2026mar,
+  abbr        = {INDEF},
+  title       = {Gejolak Harga Energi dan Risiko Fiskal: Menakar Dampak Respons Kebijakan Indonesia},
+  author      = {Mubarak, Yusuf Taqy},
+  institution = {INDEF — Monitoring Issue of Food, Energy and Sustainable Development},
+  year        = {2026},
+  month        = {mar},
+  html        = {https://indef.or.id/publikasi/monitoring-issue-of-food-energy-and-sustainable-development-maret-2026/}
+}
+
+@techreport{fesd2026feb,
+  abbr        = {INDEF},
+  title       = {Ujian Ketahanan Energi dan Pangan Indonesia di Tengah Eskalasi Perang di Timur Tengah},
+  author      = {Mubarak, Yusuf Taqy},
+  institution = {INDEF — Monitoring Issue of Food, Energy and Sustainable Development},
+  year        = {2026},
+  month        = {feb},
+  html        = {https://indef.or.id/publikasi/monitoring-issue-of-food-energy-and-sustainable-developmen-februari-2026/}
+}
+
+@techreport{fesd2026jan,
+  abbr        = {INDEF},
+  title       = {Ketahanan Pangan dan Energi di Tengah Fragmentasi Pasar Global},
+  author      = {Mubarak, Yusuf Taqy},
+  institution = {INDEF — Monitoring Issue of Food, Energy and Sustainable Development},
+  year        = {2026},
+  month        = {jan},
+  html        = {https://indef.or.id/publikasi/monitoring-issue-of-food-energy-and-sustainable-development-januari-2026/}
+}
+
+@comment{================= Monthly Brief: Macroeconomics & Finance (INDEF) =================}
+
+@techreport{macfin2026jun2,
+  abbr        = {INDEF},
+  title       = {Asing Disayang, Asing Disalahkan, Asing Bingung},
+  author      = {Mubarak, Yusuf Taqy},
+  institution = {INDEF — Monitoring Issue of Macroeconomics \& Finance},
+  year        = {2026},
+  month        = {jun},
+  html        = {https://indef.or.id/publikasi/monitoring-issue-of-macroeconomics-finance-juni-2026/}
+}
+
+@techreport{macfin2026jun1,
+  abbr        = {INDEF},
+  title       = {Ambisi Pertumbuhan Ekonomi dan Gejolak Rupiah Saat Ini},
+  author      = {Mubarak, Yusuf Taqy},
+  institution = {INDEF — Macroeconomics and Finance Brief Update},
+  year        = {2026},
+  month        = {jun},
+  html        = {https://indef.or.id/publikasi/macroeconomics-and-finance-brief-update-juni-2026/}
+}
+
+@techreport{macfin2026apr,
+  abbr        = {INDEF},
+  title       = {Dinamika Sektor Keuangan di Tengah Gejolak Perang},
+  author      = {Mubarak, Yusuf Taqy},
+  institution = {INDEF — Macroeconomics and Finance Brief Update},
+  year        = {2026},
+  month        = {apr},
+  html        = {https://indef.or.id/publikasi/macroeconomics-and-finance-brief-update-april-2026/}
+}
+
+@techreport{macfin2026mar,
+  abbr        = {INDEF},
+  title       = {Daya Beli Masyarakat di Bulan Ramadan dan Idul Fitri},
+  author      = {Mubarak, Yusuf Taqy},
+  institution = {INDEF — Macroeconomics and Finance Brief Update},
+  year        = {2026},
+  month        = {mar},
+  html        = {https://indef.or.id/publikasi/macroeconomics-and-finance-brief-update-maret-2026/}
+}
+
+@techreport{macfin2026feb,
+  abbr        = {INDEF},
+  title       = {Defisit Fiskal di Tepi Jurang},
+  author      = {Mubarak, Yusuf Taqy},
+  institution = {INDEF — Macroeconomics and Finance Brief Update},
+  year        = {2026},
+  month        = {feb},
+  html        = {https://indef.or.id/publikasi/macroeconomics-and-finance-brief-update-februari-2026/}
 }
