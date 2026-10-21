@@ -3,10 +3,6 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
 email: yusuftaqy12@gmail.com # your email address
-github_username: yusuftaqy # GitHub username
 linkedin_username: yusuftaqy # LinkedIn username (the part after /in/)
-rss_icon: true # comment this line to hide the RSS icon
-custom_social: # Instagram (not a built-in social, so defined as a custom one)
-  logo: https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg
-  title: Instagram
-  url: https://www.instagram.com/yusuftqy/
+github_username: yusuftaqy # GitHub username
+instagram_id: yusuftqy # Instagram username (uses the built-in Instagram icon)
