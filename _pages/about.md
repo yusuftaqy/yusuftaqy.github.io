@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Economic and Public Policy Research Analyst · <a href='https://indef.or.id'>INDEF</a>
 
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Yusuf Taqy Mubarak — an economics graduate and Research Associate at [INDEF](https://indef.or.id), a leading Indonesian economic think tank. My work centers on producing monthly economic briefs, working papers, and media articles on macroeconomic and sectoral issues.
+Hi, I'm Yusuf Taqy Mubarak. I am an Economics graduate with research experience at [INDEF](https://indef.or.id), a leading Indonesian economic think tank, producing monthly economic briefs, working papers, and media articles on macroeconomic and sectoral issues.
 
 I have hands-on experience in project-based economic impact and value-chain analysis, and I enjoy translating data into clear, evidence-based narratives for both public and institutional audiences.
 
